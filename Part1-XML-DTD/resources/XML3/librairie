@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE librairie SYSTEM "Librairie.dtd">
 <librairie>
-    <enTete></enTete>
-    <livre ISBN="">
-        <titre></titre>
+    <enTete>
+        <img src="photo.png"/>
+        <strong> L'histoire de barrios </strong>
+        Dans ce livre, vous allez découvrir le passé et le présent de frédéric barrios.
+    </enTete>
+    <livre ISBN="123-345-456">
+        <titre>Biographie de Frédéric Barrios</titre>
         <auteur>
+            <nom>Delmas</nom>
+            <prenom>Yanis</prenom>
         </auteur>
-        <description></description>
+        <description>
+            étudiant en informatique dans l'iut de Rodez
+        </description>
         <prix>
-            <valeurAchat></valeurAchat>
-            <devise/>
-            <type/>
+            <valeurAchat> 49,99</valeurAchat>
+            <devise devise="euro"/>
+            <type type="HT"/>
         </prix>
     </livre>
 </librairie>

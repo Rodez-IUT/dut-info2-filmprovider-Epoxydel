@@ -22,13 +22,13 @@
 <!ATTLIST prix tva NMTOKEN #FIXED "5.5" #REQUIRED>
 <!ELEMENT valeurAchat (#PCDATA)>
 <!ELEMENT devise EMPTY>
-<!ATTLIST devise dev type ("euro"|"livre"|"dollar") "euro" #REQUIRED>
+<!ATTLIST devise devise ("euro"|"livre"|"dollar") "euro" #REQUIRED>
 <!ELEMENT type EMPTY>
-<!ATTLIST type typ type ("HT"|"TTC") "HT" #REQUIRED>
+<!ATTLIST type type ("HT"|"TTC") "HT" #REQUIRED>
 
 <!ELEMENT parametre ((nom,prenom|directeur),enTete,description)>
 <!ELEMENT directeur (nom,prenom)>
 
-<!ENTITY copyright  "&#xA9;Librairie & Internet 2020"
+<!ENTITY copyright  "&#xA9;Librairie & Internet 2020">
 
 
