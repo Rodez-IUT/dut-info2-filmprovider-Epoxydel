@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE librairie SYSTEM "Librairie.dtd">
+<librairie>
+    <enTete></enTete>
+    <livre ISBN="">
+        <titre></titre>
+        <auteur>
+        </auteur>
+        <description></description>
+        <prix>
+            <valeurAchat></valeurAchat>
+            <devise/>
+            <type/>
+        </prix>
+    </livre>
+</librairie>
