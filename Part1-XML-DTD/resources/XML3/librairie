@@ -13,7 +13,7 @@
             <prenom>Yanis</prenom>
         </auteur>
         <description>
-            étudiant en informatique dans l'iut de Rodez
+            étudiant en informatique dans l'iut de Rodez.
         </description>
         <prix>
             <valeurAchat> 49,99</valeurAchat>
