@@ -3,20 +3,20 @@
 <librairie>
     <enTete>
         <img src="photo.png"/>
-        <strong> L'histoire de barrios </strong>
-        Dans ce livre, vous allez découvrir le passé et le présent de frédéric barrios.
+        <strong> L'histoire de luffy </strong>
+        Dans ce manga, vous allez découvrir l'aventure de l'équipage du chapeau de paille
     </enTete>
     <livre ISBN="123-345-456">
-        <titre>Biographie de Frédéric Barrios</titre>
+        <titre>One piece</titre>
         <auteur>
-            <nom>Delmas</nom>
-            <prenom>Yanis</prenom>
+            <nom>Oda</nom>
+            <prenom>Eiichirō</prenom>
         </auteur>
         <description>
-            étudiant en informatique dans l'iut de Rodez.
+            Mangaka au japon
         </description>
         <prix>
-            <valeurAchat> 49,99</valeurAchat>
+            <valeurAchat> 6,99</valeurAchat>
             <devise devise="euro"/>
             <type type="HT"/>
         </prix>
