@@ -1,6 +1,6 @@
-<!ELEMENT librairie (enTete,livre+)
+<!ELEMENT librairie (enTete,livre+)>
 
-<!ELEMENT enTete (strong|em|img)*>
+<!ELEMENT enTete (#PCDATA|strong|em|img)*>
 <!ELEMENT strong (#PCDATA)>
 <!ELEMENT em (#PCDATA)>
 <!ELEMENT img EMPTY>
@@ -13,22 +13,22 @@
 <!ELEMENT auteur ((nom,prenom?)*|collectif)>
 <!ELEMENT nom (#PCDATA)>
 <!ELEMENT prenom (#PCDATA)>
-<!ELEMENT collectif (direction,membre)
+<!ELEMENT collectif (direction,membre)>
 <!ELEMENT direction (nom,prenom?)>
 <!ELEMENT membre (texteLibre)>
 <!ELEMENT texteLibre (#PCDATA)>
-<!ELEMENT description (strong|em|img)*>
+<!ELEMENT description (#PCDATA|strong|em|img)*>
 <!ELEMENT prix (valeurAchat,devise,type)>
-<!ATTLIST prix tva NMTOKEN #FIXED "5.5" #REQUIRED>
+<!ATTLIST prix tva NMTOKEN #FIXED "5.5" >
 <!ELEMENT valeurAchat (#PCDATA)>
 <!ELEMENT devise EMPTY>
-<!ATTLIST devise devise ("euro"|"livre"|"dollar") "euro" #REQUIRED>
+<!ATTLIST devise deviseP (euro|livre|dollar) "euro" >
 <!ELEMENT type EMPTY>
-<!ATTLIST type type ("HT"|"TTC") "HT" #REQUIRED>
+<!ATTLIST type type (HT|TTC) "HT">
 
-<!ELEMENT parametre ((nom,prenom|directeur),enTete,description)>
+<!ELEMENT parametre (((nom,prenom)|directeur),enTete,description) >
 <!ELEMENT directeur (nom,prenom)>
 
-<!ENTITY copyright  "&#xA9;Librairie & Internet 2020">
+<!ENTITY copyRightLibre  "&#xA9;Librairie et Internet 2020">
 
 

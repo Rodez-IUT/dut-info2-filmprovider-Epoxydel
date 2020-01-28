@@ -3,21 +3,22 @@
 <librairie>
     <enTete>
         <img src="photo.png"/>
-        <strong> L'histoire de barrios </strong>
-        Dans ce livre, vous allez découvrir le passé et le présent de frédéric barrios.
+        <strong> L'histoire de Tryo </strong>
+        Dans ce livre, vous allez découvrir le passé et le présent de Tryo.
+        copyRightLibre (ne fonctionne pas)
     </enTete>
     <livre ISBN="123-345-456">
-        <titre>Biographie de Frédéric Barrios</titre>
+        <titre>Biographie de Tryo</titre>
         <auteur>
             <nom>Delmas</nom>
             <prenom>Yanis</prenom>
         </auteur>
         <description>
-            étudiant en informatique dans l'iut de Rodez.
+            étudiant en informatique dans <em>l'iut de Rodez</em>.
         </description>
-        <prix>
+        <prix tva="5.5">
             <valeurAchat> 49,99</valeurAchat>
-            <devise devise="euro"/>
+            <devise deviseP = "euro"/>
             <type type="HT"/>
         </prix>
     </livre>
