@@ -4,8 +4,8 @@
     <enTete>
         <img src="photo.png"/>
         <strong> L'histoire du push qui fonctionne pas</strong>
-        Le push à était fait avec le document qui fonctionné et hop conflit, le fichier est perdu.
-        J'ai réaliser le travaille mais, il sait supprimer...
+        Le push à était fait avec le document qui fonctionner et hop conflit, le fichier est perdu.
+        J'ai réalisé le travail mais il sait supprimé...
     </enTete>
     <livre ISBN="123-345-456">
         <titre>L'histoire du push qui fonctionne pas</titre>
