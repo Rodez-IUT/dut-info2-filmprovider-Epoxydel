@@ -3,11 +3,12 @@
 <librairie>
     <enTete>
         <img src="photo.png"/>
-        <strong> L'histoire de barrios </strong>
-        Dans ce livre, vous allez découvrir le passé et le présent de frédéric barrios.
+        <strong> L'histoire du push qui fonctionne pas</strong>
+        Le push à était fait avec le document qui fonctionné et hop conflit, le fichier est perdu.
+        J'ai réaliser le travaille mais, il sait supprimer...
     </enTete>
     <livre ISBN="123-345-456">
-        <titre>Biographie de Frédéric Barrios</titre>
+        <titre>L'histoire du push qui fonctionne pas</titre>
         <auteur>
             <nom>Delmas</nom>
             <prenom>Yanis</prenom>
