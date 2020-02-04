@@ -4,7 +4,7 @@
     <xsl:template match="/films">
         <html>
             <head>
-                <META http-equiv="Content-Type" content="text/html" charset="UTF-8">
+                <META http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
                 <title>Films</title>
             </head>
             <body>
@@ -12,7 +12,7 @@
                 <table>
                     <thead>
                         <tr>
-                            <th>Titre</th><th>Résumé;</th>
+                            <th>Titre</th><th>Résumé</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -26,8 +26,11 @@
     <xsl:template match="film">
         <tr>
             <td>
-            <xsl:value-of select="/resume/texte"/>
+                <xsl:value-of select="titre"/>
+            </td>
             <td>
+            <xsl:value-of select="resume/text"/>
+            </td>
         </tr>
     </xsl:template>
 
