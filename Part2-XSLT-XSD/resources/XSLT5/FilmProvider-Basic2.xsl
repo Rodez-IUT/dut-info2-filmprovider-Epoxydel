@@ -4,37 +4,22 @@
         <html>
             <head>
                 <META http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
-                <title>Films</title>
+                <title>Film Provider</title>
             </head>
             <body>
-                <h1>Films</h1>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Titre</th><th>Résumé</th><th>Réalisateur</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <xsl:apply-templates select="film" />
-                    </tbody>
-                </table>
+                <h1>Liste Films</h1>
+                <xsl:apply-templates select="film" />
             </body>
         </html>
     </xsl:template>
 
     <xsl:template match="film">
         <xsl:variable name="idRea" select="@id_realisateur" />
+        <table width="60%">
         <tr>
-            <td>
-                <xsl:value-of select="titre"/>
-            </td>
-            <td>
-                <xsl:value-of select="resume/text"/>
-            </td>
-            <td>
-                <xsl:value-of select="//realisateur[@id_realisateur = $idRea ]"/>
-            </td>
+            <td colspan="2"><b><xsl:value-of select="titre"/></b>(<i> <xsl:value-of select="//realisateur[@id_realisateur = $idRea ]"/>)</i></td>
         </tr>
+        </table>
     </xsl:template>
 
 </xsl:stylesheet>
